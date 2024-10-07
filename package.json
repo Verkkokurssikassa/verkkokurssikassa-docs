@@ -1,17 +1,28 @@
 {
-  "name": "verkkokurssikassa-docs",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^4.15.11",
-    "@astrojs/check": "^0.9.4",
-    "typescript": "^5.6.2"
-  }
+   "name": "verkkokurssikassa-docs",
+   "type": "module",
+   "version": "0.0.1",
+   "scripts": {
+      "dev": "astro dev",
+      "start": "astro dev",
+      "build": "astro check && astro build",
+      "preview": "astro preview",
+      "astro": "astro",
+      "prepare": "husky"
+   },
+   "dependencies": {
+      "@astrojs/check": "^0.9.4",
+      "@astrojs/tailwind": "^5.1.1",
+      "@fontsource/poppins": "^5.1.0",
+      "astro": "^4.15.11",
+      "tailwindcss": "^3.4.13",
+      "typescript": "^5.6.2"
+   },
+   "devDependencies": {
+      "husky": "^9.1.6",
+      "lint-staged": "^15.2.10",
+      "prettier": "^3.3.3",
+      "prettier-plugin-astro": "^0.14.1",
+      "prettier-plugin-tailwindcss": "^0.6.8"
+   }
 }
